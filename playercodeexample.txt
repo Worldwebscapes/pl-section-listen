@@ -1,0 +1,16 @@
+Paste This In Audio Location Section
+<audio controls="controls"><source src="http://199.189.111.150:8020/;stream.mp3" type="audio/mp3" /></audio>
+
+
+Paste This In Scripts Section
+
+Current song: <a href="http://st3.webradioworld.net:2199/tunein/twister.pls" id="cc_strinfo_song_twister" class="cc_streaminfo">Loading ...</a><br />
+Stream title: <span id="cc_strinfo_title_twister" class="cc_streaminfo"></span><br />
+Bit rate: <span id="cc_strinfo_bitrate_twister" class="cc_streaminfo"></span><br />
+Maximum listeners: <span id="cc_strinfo_maxlisteners_twister" class="cc_streaminfo"></span><br />
+Server status: <span id="cc_strinfo_server_twister" class="cc_streaminfo"></span><br />
+Station time: <span id="cc_strinfo_date_twister" class="cc_streaminfo"></span> <span id="cc_strinfo_time_twister" class="cc_streaminfo"></span><br />
+Album image:<br /><img id="cc_strinfo_trackimageurl_twister" class="cc_streaminfo" /><br /><a href="#" id="cc_strinfo_trackbuyurl_twister" class="cc_streaminfo">Buy this album</a><br />
+<script language="javascript" type="text/javascript" src="http://st3.webradioworld.net:2199/system/streaminfo.js"></script>
+<div id="cc_recenttracks_twister" class="cc_recenttracks_list">Loading ...</div>
+<script language="javascript" type="text/javascript" src="http://st3.webradioworld.net:2199/system/recenttracks.js"></script>

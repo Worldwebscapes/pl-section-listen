@@ -1,0 +1,166 @@
+@import "_mixins.less";
+
+
+.pl-sn-listen{
+  text-align: center;
+
+  .format-hero, 
+  .format-hero-flip{
+    .listen-hero{
+      .flex-display();
+
+      .flex-wrap(wrap);
+      .flex-direction(row-reverse);
+      > div{
+        
+        width: 50%; 
+        .flex-display();
+        .flex-direction(column);
+        .justify-content(center);
+        &.listen-media{
+          padding: 0 0 0 2em;
+        }
+        &.listen-head{
+          text-align: left;
+          padding: 0 2em 0 0;
+        }
+      }
+    }
+  }
+  .format-hero-flip{
+    .listen-hero{
+      
+      .flex-direction(row);
+      > div{
+        &.listen-media{
+          padding: 0 2em 0 0;
+        }
+        &.listen-head{
+          text-align: left;
+          padding: 0 0 0 2em;
+        }
+      }
+    }
+    
+  } 
+
+  .format-callout,
+  .format-callout-flip{
+    .listen-head{
+      .flex-display();
+      .flex-wrap(wrap);
+      > div{
+        padding: 0 2em;
+        width: 50%; 
+        .flex-display();
+        .flex-direction(column);
+        .justify-content(center);
+        > *{
+          margin:  0;
+        }
+        &.listen-text{
+          text-align: left;
+          padding-left: 0;
+          
+        }
+        .listen-btns{
+          text-align: right;
+          
+        }
+      }
+    }
+  }
+  .format-callout-flip{
+    .listen-head{
+    
+      .flex-direction(row-reverse);
+      > div {
+        .listen-btns{
+          text-align: center;  
+        }
+      }
+    }
+
+  } 
+
+  .format-masthead-flip{
+    .listen-hero{
+      .flex-display();
+      .flex-direction(column-reverse);
+    }
+  }
+}
+
+.listen-menu{
+  margin: 3em 0;
+}
+.listen-richtext{
+  margin: 2em 0 0;
+}
+
+.listen-media{
+  margin-bottom: 2em;
+}
+
+.listen-btns{
+  margin: 2em -.5em 0;
+  .btn{
+    margin: .5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pl-sn-listen{
+
+    .format-hero, 
+    .format-hero-flip{
+      .listen-hero{
+
+        .flex-direction(column);
+
+        > div{
+          
+          width: 100%; 
+          &.listen-head, 
+          &.listen-media{
+            text-align: center;
+            padding: 0
+          }
+          
+          
+        }
+      }
+    }
+    
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .pl-sn-listen{
+
+    .format-callout, 
+    .format-callout-flip{
+      .listen-hero{
+
+        .listen-head{
+          display: block;
+      
+          > div{
+            text-align: center;
+            width: 100%;
+            padding: .5em 0;
+            .listen-btns{
+              text-align: center;
+              a{
+                margin: .5em;
+              }
+            }
+          }
+        }
+        
+      }
+    }
+    
+  }
+} 
+

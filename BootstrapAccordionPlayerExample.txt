@@ -1,0 +1,100 @@
+        <!--/*================================
+   Main Accordion
+==================================*/-->
+        <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Listen Here</h3>
+  </div>
+ <!-- /*================================
+    Static Panel
+==================================*/-->
+  <div class="panel-body">
+    <audio autoplay controls>
+                <source src="http://199.189.111.150:8020/;stream.mp3" type="audio/mp3" />
+              </audio></p>
+              <h5>Trouble With HTML5 Audio Player?</h5>
+                <div class="panel-body">
+                    <div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-default"><a href="http://st3.webradioworld.net:2199/tunein/twister.pls" ><i class="fa fa-android"></i></a><br /></button>
+  <button type="button" class="btn btn-default"><a href="http://st3.webradioworld.net:2199/tunein/twister.pls" ><i class="fa fa-apple"></i></a><br /></button>
+  <button type="button" class="btn btn-default"><a href="http://st3.webradioworld.net:2199/tunein/twister.pls" ><i class="fa fa-windows"></i></a><br /></button>
+</div>
+                  </div>
+              
+    <!--/*================================
+Main Accordion
+==================================*/-->
+    
+    
+    <div class="row">
+        <div class="col-md-12" id="main">
+            <h3>Twisters Track Information</h3>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            
+          <!--  /*================================
+    Inside Accordion One
+==================================*/-->
+             
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Track and Stream Details
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <h3 class="panel-title"><span class="hvr-wobble-skew">Stream Details</span></h3>
+              Current song: <a href="http://st3.webradioworld.net:2199/tunein/twister.pls" id="cc_strinfo_song_twister" class="cc_streaminfo">Loading ...</a><br />
+Bit rate: <span id="cc_strinfo_bitrate_twister" class="cc_streaminfo"></span><br />
+Server status: <span id="cc_strinfo_server_twister" class="cc_streaminfo"></span><br />
+AutoDJ status: <span id="cc_strinfo_autodj_twister" class="cc_streaminfo"></span><br />
+Station time: <span id="cc_strinfo_date_twister" class="cc_streaminfo"></span> <span id="cc_strinfo_time_twister" class="cc_streaminfo"></span><br />
+Buy this album</a>
+                </div>
+              </div>
+              
+             <!--/*================================
+    Inside Accordion Two
+==================================*/-->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Recent Tracks
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <div id="cc_recenttracks_twister" class="cc_recenttracks_list">Loading ...</div>
+                  </div>
+                </div>
+              </div>
+              
+                <!--/*================================
+    Inside Accordion Two
+==================================*/-->
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Twisters Featured Videos
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLTWMLhGmSp9FGOjUTl-KHrB7OTfWdMgT_" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+                   
+            </div>
+            
+             <!--/*================================
+    End Accordion
+==================================*/-->
